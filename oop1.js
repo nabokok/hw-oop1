@@ -38,7 +38,6 @@ class BackEndDev extends Developer{
         this.os = os
         this.#level = level
         this.occupation = 'Backend developer'
-        this.os = os
     }
     intro = () => console.log(`Hello! My name is ${this.name}. I'm ${this.occupation}.`);
     sayLevel = () => console.log(this.level);
